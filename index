@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Cá Nhân | Tên Của Bạn</title>
+    <meta name="description" content="Portfolio cá nhân của [Tên Của Bạn], giới thiệu các dự án và kỹ năng.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Liên kết CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- PHẦN HEADER VÀ ĐIỀU HƯỚNG -->
+    <header class="site-header">
+        <div class="container">
+            <a href="#home" class="logo">Tên Bạn</a>
+            <nav class="main-nav">
+                <ul class="nav-links">
+                    <li><a href="#home">Trang Chủ</a></li>
+                    <li><a href="#projects">Dự Án</a></li>
+                    <li><a href="#about">Về Tôi</a></li>
+                    <li><a href="#contact">Liên Hệ</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" aria-label="Mở menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- PAGE #1: GIỚI THIỆU -->
+        <section id="home" class="hero">
+            <div class="container">
+                <h1>Xin chào, tôi là [Tên Của Bạn]</h1>
+                <p class="subtitle">Một Lập Trình Viên Web | Người Giải Quyết Vấn Đề</p>
+                <div class="social-links">
+                    <a href="#" target="_blank" title="GitHub">GitHub</a>
+                    <a href="#" target="_blank" title="LinkedIn">LinkedIn</a>
+                    <a href="#" target="_blank" title="Email">Email</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- PAGE #2: DỰ ÁN (ĐÁP ỨNG YÊU CẦU 4 ẢNH) -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2>Các Dự Án Nổi Bật</h2>
+                <div class="project-grid">
+                    <!-- Dự án 1 -->
+                    <article class="project-card">
+                        <img src="https://picsum.photos/seed/project1/600/400" alt="Hình ảnh mô tả dự án 1">
+                        <div class="card-content">
+                            <h3>Tên Dự Án 1</h3>
+                            <p>Mô tả ngắn gọn về dự án, vai trò của bạn và các công nghệ chính đã sử dụng (ví dụ: React, Node.js).</p>
+                            <div class="project-links">
+                                <a href="#" class="btn" target="_blank">Xem trực tiếp</a>
+                                <a href="#" class="btn-secondary" target="_blank">Mã nguồn</a>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- Dự án 2 -->
+                    <article class="project-card">
+                        <img src="https://picsum.photos/seed/project2/600/400" alt="Hình ảnh mô tả dự án 2">
+                        <div class="card-content">
+                            <h3>Tên Dự Án 2</h3>
+                            <p>Mô tả ngắn gọn về dự án, vai trò của bạn và các công nghệ chính đã sử dụng (ví dụ: HTML, CSS, Vanilla JS).</p>
+                             <div class="project-links">
+                                <a href="#" class="btn" target="_blank">Xem trực tiếp</a>
+                                <a href="#" class="btn-secondary" target="_blank">Mã nguồn</a>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- Dự án 3 -->
+                    <article class="project-card">
+                        <img src="https://picsum.photos/seed/project3/600/400" alt="Hình ảnh mô tả dự án 3">
+                        <div class="card-content">
+                            <h3>Tên Dự Án 3</h3>
+                            <p>Mô tả ngắn gọn về dự án, vai trò của bạn và các công nghệ chính đã sử dụng (ví dụ: Figma, UI/UX Design).</p>
+                             <div class="project-links">
+                                <a href="#" class="btn" target="_blank">Xem thiết kế</a>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- Dự án 4 -->
+                    <article class="project-card">
+                        <img src="https://picsum.photos/seed/project4/600/400" alt="Hình ảnh mô tả dự án 4">
+                        <div class="card-content">
+                            <h3>Tên Dự Án 4</h3>
+                            <p>Mô tả ngắn gọn về dự án, vai trò của bạn và các công nghệ chính đã sử dụng (ví dụ: Vue.js, Firebase).</p>
+                             <div class="project-links">
+                                <a href="#" class="btn" target="_blank">Xem trực tiếp</a>
+                                <a href="#" class="btn-secondary" target="_blank">Mã nguồn</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- PAGE #3: VỀ TÔI -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2>Về Tôi</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Xin chào! Tôi là một lập trình viên đam mê xây dựng các ứng dụng web đẹp mắt và hữu dụng. Với kinh nghiệm trong cả front-end và back-end, tôi luôn tìm kiếm cơ hội để học hỏi công nghệ mới và giải quyết các thách thức thú vị.</p>
+                        <p>Ngoài công việc, tôi thích đọc sách, khám phá các quán cà phê và đóng góp cho các dự án mã nguồn mở.</p>
+                    </div>
+                    <aside class="skills">
+                        <h3>Kỹ Năng Chính</h3>
+                        <ul>
+                            <li>HTML5 & CSS3</li>
+                            <li>JavaScript (ES6+)</li>
+                            <li>React & Redux</li>
+                            <li>Node.js & Express</li>
+                            <li>SQL & NoSQL (MongoDB)</li>
+                            <li>Git & GitHub</li>
+                            <li>UI/UX Design (Figma)</li>
+                        </ul>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <!-- PAGE #4: LIÊN HỆ -->
+        <section id="contact" class="contact-section">
+             <div class="container">
+                <h2>Liên Hệ Với Tôi</h2>
+                <p>Tôi luôn sẵn sàng cho các cơ hội mới. Hãy gửi email cho tôi!</p>
+                <a href="mailto:emailcuaban@example.com" class="btn">Gửi Email</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- PHẦN FOOTER -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 | Thiết kế và xây dựng bởi [Tên Của Bạn]</p>
+        </div>
+    </footer>
+
+    <!-- Liên kết JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
