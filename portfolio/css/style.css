@@ -1,0 +1,19 @@
+body {
+  scroll-behavior: smooth;
+}
+header {
+  background: url('../img/bg.jpg') no-repeat center center/cover;
+  color: white;
+}
+header .btn-dark {
+  background-color: #000;
+  border: none;
+}
+.avatar {
+  width: 240px;   /* gấp đôi */
+  height: 240px;  /* gấp đôi */
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
